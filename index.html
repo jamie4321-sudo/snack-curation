@@ -635,7 +635,6 @@ footer { background: var(--black); padding: 36px 80px; display: flex; align-item
 .quick-status { font-size: 10px; color: #888; margin-top: 1px; }
 .quick-arrow { font-size: 12px; color: #ccc; flex-shrink: 0; }
 
-</style>
   <style>
   /* 뷰포트에 진입하기 전 기본 상태 */
   .animate-init {
@@ -660,7 +659,6 @@ footer { background: var(--black); padding: 36px 80px; display: flex; align-item
     transform: translate(0) scale(1) !important;
   }
 </style>
-</head>
 </head>
 <body>
 
@@ -1689,8 +1687,7 @@ const countObserver = new IntersectionObserver((entries) => {
   document.querySelectorAll('.chat-point, .mag-overline, .mag-headline, .mag-body, .mag-bottom').forEach(el => observer.observe(el));
 
   document.querySelectorAll('[data-count]').forEach(el => countObserver.observe(el));
-</script>
-  <script>
+<script>
   document.addEventListener("DOMContentLoaded", () => {
     // 애니메이션을 적용할 대상 요소들을 감지합니다.
     // (스크립트가 자동으로 이 클래스명들을 HTML 요소에 추가해줍니다)
